@@ -1,15 +1,8 @@
-
-
 import './App.css'
-
 function App() {
-
-
   return (
     <>
-     
-<h1 class="text-blue-900">Hello</h1>
-      
+       <h1 class="text-blue-900 text-8xl">Hello</h1>
     </>
   )
 }
