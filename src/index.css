@@ -1,1 +1,9 @@
 @import "tailwindcss";
+@layer base {
+  ul,
+  ol {
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+  }
+}

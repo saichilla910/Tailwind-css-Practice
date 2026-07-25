@@ -23,12 +23,12 @@ const Layout = () => {
         <div className="inline text-6xl bg-pink-400 ">3</div>
       </div>
 
-      <p className="whitespace-line-pre">for space</p>
+      <p className="whitespace-line-pre antialiased">for space</p>
       <p className="whitespace-line-pre"> for space </p>
 
       <div className=" space-x-4">
         contents( it attaches the non children elemnts to their higher parent)
-        <div className="inline text-6xl bg-pink-400 ">1</div>
+        <div className="inline text-6xl bg-pink-400  ">1</div>
         <div className="contents space-x-4">
           <div className="inline text-6xl bg-pink-400 ">2</div>
           <div className="inline text-6xl bg-pink-400 ">3</div>
