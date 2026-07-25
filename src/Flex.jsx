@@ -40,7 +40,7 @@ const Flex = () => {
           </div>
         </nav>
         //creating cards
-        <div className="w-72 rounded-lg border shadow-md overflow-hidden">
+        {/* <div className="w-72 rounded-lg border shadow-md overflow-hidden">
           <img
             src="https://picsum.photos/300/200"
             alt="Product"
@@ -60,7 +60,7 @@ const Flex = () => {
               Add to Cart
             </button>
           </div>
-        </div>
+        </div> */}
       </header>
     </>
   );

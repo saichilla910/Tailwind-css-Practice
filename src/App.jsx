@@ -7,6 +7,9 @@ import Positions from "./Positions";
 import Fonts from "./Fonts";
 import Flex from "./Flex";
 import Grid from "./Grid";
+import Filters from "./Filters";
+import Transeforms from "./Transeforms";
+import TransformationsAndAnimations from "./TransformationsAndAnimations";
 function App() {
   return (
     <>
@@ -28,6 +31,16 @@ function App() {
       <Flex></Flex>
       <hr></hr>
       <Grid></Grid>
+      <hr></hr>
+      <Filters></Filters>
+      
+      <p className="mb-20"></p>
+      <TransformationsAndAnimations></TransformationsAndAnimations>
+
+      <hr>
+      </hr>
+      <Transeforms></Transeforms>
+
     </>
   );
 }
