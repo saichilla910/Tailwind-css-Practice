@@ -1,7 +1,6 @@
 const Effects = () => {
   return (
     <div className="space-y-4 p-6">
-
       <button className="bg-blue-500 text-white px-4 py-2 hover:bg-transparent hover:text-blue-500 border">
         Hover
       </button>
@@ -17,9 +16,7 @@ const Effects = () => {
         Visited Link
       </a>
 
-      <button className="invisible">
-        Invisible
-      </button>
+      <button className="invisible">Invisible</button>
 
       <button
         disabled
@@ -34,7 +31,6 @@ const Effects = () => {
         placeholder="Enter email"
         className="border p-2 invalid:border-red-500"
       />
-
     </div>
   );
 };

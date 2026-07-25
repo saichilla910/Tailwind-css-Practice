@@ -35,7 +35,6 @@ const Layout = () => {
         </div>
       </div>
 
-
       <p> nothing</p>
     </>
   );

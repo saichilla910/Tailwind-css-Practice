@@ -40,43 +40,27 @@ const Flex = () => {
           </div>
         </nav>
         //creating cards
-      
-    <div className="w-72 rounded-lg border shadow-md overflow-hidden">
+        <div className="w-72 rounded-lg border shadow-md overflow-hidden">
+          <img
+            src="https://picsum.photos/300/200"
+            alt="Product"
+            className="w-full h-48 object-cover"
+          />
 
-      <img
-        src="https://picsum.photos/300/200"
-        alt="Product"
-        className="w-full h-48 object-cover"
-      />
+          <div className="p-4">
+            <h2 className="text-xl font-semibold">Shoes</h2>
 
-      <div className="p-4">
+            <p className="line-through text-gray-500">₹3900</p>
 
-        <h2 className="text-xl font-semibold">
-          Shoes
-        </h2>
+            <p className="text-green-600 font-medium">Discount 20%</p>
 
-        <p className="line-through text-gray-500">
-          ₹3900
-        </p>
+            <p className="text-2xl font-bold">₹2400</p>
 
-        <p className="text-green-600 font-medium">
-          Discount 20%
-        </p>
-
-        <p className="text-2xl font-bold">
-          ₹2400
-        </p>
-
-        <button className="mt-4 w-full rounded bg-green-500 py-2 text-white">
-          Add to Cart
-        </button>
-
-      </div>
-
-    </div>
-  
-
-
+            <button className="mt-4 w-full rounded bg-green-500 py-2 text-white">
+              Add to Cart
+            </button>
+          </div>
+        </div>
       </header>
     </>
   );
